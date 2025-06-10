@@ -16,7 +16,6 @@ class Jarat(ABC):
     def get_adatok(self):
         pass
 
-# 2. Lépés: Alosztályok definálása
 class BelfoldiJarat(Jarat):
     def get_adatok(self):
         return [
